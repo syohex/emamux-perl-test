@@ -126,4 +126,4 @@
   (interactive)
   (emamux-pt:run-test-common 'file))
 
-;;; emamux.el ends here
+;;; emamux-perl-test.el ends here
