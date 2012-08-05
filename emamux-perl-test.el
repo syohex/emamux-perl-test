@@ -20,11 +20,6 @@
 
 ;;; Commentary:
 
-;;; History:
-;; Revision 0.1  2012/07/???? syohex
-;; Initial version
-;;
-
 ;;; Code:
 
 (eval-when-compile
