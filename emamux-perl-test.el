@@ -20,6 +20,22 @@
 
 ;;; Commentary:
 
+;; emamux-perl-test makes you test perl file with emamux.
+;; You can test current file or all test in the module.
+;;
+;; To use emamux-perl-test, add the following code into your init.el or .emacs:
+;;
+;;    (require 'emamux-perl-test)
+;;
+;; emamux-perl-test provides following commands:
+;;
+;; Test all test files.
+;;     M-x emamux-perl-test:run-all
+;;
+;; Test current file.
+;;     M-x emamux-perl-test:run-this-file
+;;
+
 ;;; Code:
 
 (eval-when-compile
