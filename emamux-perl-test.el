@@ -1,6 +1,6 @@
 ;;; emamux-perl-test.el --- Perl test with emamux
 
-;; Copyright (C) 2012 by Syohei YOSHIDA
+;; Copyright (C) 2013 by Syohei YOSHIDA
 
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emamux-perl-test
@@ -129,10 +129,12 @@
          (cmd (emamux-pt:test-command test-type build-type file topdir)))
     (emamux:run-command (emamux-pt:concat-command build-cmd cmd) topdir)))
 
+;;;###autoload
 (defun emamux-perl-test:run-all ()
   (interactive)
   (emamux-pt:run-test-common 'all))
 
+;;;###autoload
 (defun emamux-perl-test:run-this-file ()
   (interactive)
   (emamux-pt:run-test-common 'file))
